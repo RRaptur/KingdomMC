@@ -1,0 +1,16 @@
+name: WMC
+version: 1.0
+author: Rapturr
+main: me.rapturr.wmc.WMC
+api-version: 1.18
+depend:
+  - ProtocolLib
+  - GSit
+commands:
+  wmc:
+    description: command
+    usage: /<command>
+permissions:
+  wmc.*:
+    description: Gives all perms for wmc
+    default: op
